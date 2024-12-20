@@ -8,9 +8,11 @@
 
 ## install 
 
+```bash
 composer require --dev phpunit/phpunit
 composer dump-autoload
 vendor/bin/phpunit tests/CalculatorTest.php
+```
 
 ## Test Results
 
