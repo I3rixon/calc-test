@@ -1,10 +1,14 @@
 # Calculator Unit-Test init
 
-## Req
+## Description
+
+This project is a simple calculator application designed to demonstrate unit testing in PHP using PHPUnit. It includes basic arithmetic operations and corresponding unit tests to ensure the correctness of the implementation.
+
+## Requirements
 
 - PHP >= 7.4
-- Composer
-- PHPUnit 
+- Composer for dependency management
+- PHPUnit for running unit tests
 
 ## install 
 
