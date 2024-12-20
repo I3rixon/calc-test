@@ -17,3 +17,4 @@ vendor/bin/phpunit tests/CalculatorTest.php
 ## Test Results
 
 ![Failure with Floats](images/failure_with_floats.png)
+![Syntactic fix for floats issue](images/Screenshot_1.png)

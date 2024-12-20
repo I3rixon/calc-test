@@ -58,6 +58,5 @@ class CalculatorTest extends TestCase {
     public function testDivideByZeroThrowsException() {
         $this->expectException(\InvalidArgumentException::class);
         $this->calculator->divide(5, 0);
-    }
-    
+    }    
 }

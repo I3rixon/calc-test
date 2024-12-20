@@ -2,22 +2,22 @@
 namespace App;
 class Calculator {
     public function add($a, $b) {
-        return $a + $b;
+        return round($a + $b, 5);
     }
 
     public function subtract($a, $b) {
-        return $a - $b;
+        return round($a - $b, 5);
     }
 
     public function multiply($a, $b) {
-        return $a * $b;
+        return round($a * $b, 5);
     }
 
     public function divide($a, $b) {
         if ($b == 0) {
             throw new \InvalidArgumentException("Division by zero");
         }
-        return $a / $b;
+        return round($a / $b, 5);
     }
 }
 
